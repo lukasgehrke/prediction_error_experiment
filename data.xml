@@ -1,0 +1,15 @@
+<experiment>
+  <parameter>
+    <trial>100</trial> <!-- Number of Trials-->
+	<volatility>1</volatility> <!-- Level of Volatility-->
+
+	<vibroFeedbackCondition>true</vibroFeedbackCondition> <!-- Vibro Condition -->
+	<vibro_feedback_duration>0.1</vibro_feedback_duration> <!-- Duration of Vibro Feedback-->
+	
+	<emsFeedbackCondition>false</emsFeedbackCondition> <!-- EMS Condition -->
+	<width>200</width> <!-- EMS Condition -->
+	<current>8</current> <!-- EMS Condition -->
+	<pulseCount>5</pulseCount> <!-- EMS Condition -->
+
+    </parameter>
+</experiment>

@@ -1,0 +1,1879 @@
+fileFormatVersion: 2
+guid: 12be5c62034e44578b5e9d9d261ee9f1
+timeCreated: 1492611571
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Band
+    100002: f_index.01
+    100004: f_index.02
+    100006: f_index.03
+    100008: f_index.03_end
+    100010: f_middle.01
+    100012: f_middle.02
+    100014: f_middle.03
+    100016: f_middle.03_end
+    100018: f_pinky.01
+    100020: f_pinky.02
+    100022: f_pinky.03
+    100024: f_pinky.03_end
+    100026: f_ring.01
+    100028: f_ring.02
+    100030: f_ring.03
+    100032: f_ring.03_end
+    100034: hand
+    100036: palm.01
+    100038: palm.02
+    100040: palm.03
+    100042: palm.04
+    100044: thumb.01
+    100046: thumb.02
+    100048: thumb.03
+    100050: thumb.03_end
+    100052: //RootNode
+    100054: VR_Hands
+    100056: VRHands
+    400000: Band
+    400002: f_index.01
+    400004: f_index.02
+    400006: f_index.03
+    400008: f_index.03_end
+    400010: f_middle.01
+    400012: f_middle.02
+    400014: f_middle.03
+    400016: f_middle.03_end
+    400018: f_pinky.01
+    400020: f_pinky.02
+    400022: f_pinky.03
+    400024: f_pinky.03_end
+    400026: f_ring.01
+    400028: f_ring.02
+    400030: f_ring.03
+    400032: f_ring.03_end
+    400034: hand
+    400036: palm.01
+    400038: palm.02
+    400040: palm.03
+    400042: palm.04
+    400044: thumb.01
+    400046: thumb.02
+    400048: thumb.03
+    400050: thumb.03_end
+    400052: //RootNode
+    400054: VR_Hands
+    400056: VRHands
+    2300000: Band
+    3300000: Band
+    4300000: Band
+    4300002: VR_Hands
+    7400000: VRHands|HandAnimation
+    7400002: Idle
+    7400004: Fist
+    7400006: Like
+    7400008: ButtonClick
+    7400010: Finger1
+    7400012: Finger2
+    7400014: Finger3
+    7400016: Finger4
+    7400018: Finger5
+    7400020: Middle
+    7400022: DoYouRock
+    7400024: Shaka
+    7400026: Grab1
+    7400028: Okay
+    7400030: Grab2
+    7400032: Grab3
+    7400034: PistolGrab
+    7400036: PistolShoot
+    7400038: Spok
+    9500000: //RootNode
+    13700000: VR_Hands
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: VRHands|HandAnimation
+      takeName: VRHands|HandAnimation
+      firstFrame: 0
+      lastFrame: 189
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: VR_Hands
+        weight: 1
+      - path: VRHands
+        weight: 1
+      - path: VRHands/Band
+        weight: 1
+      - path: VRHands/hand
+        weight: 1
+      - path: VRHands/hand/palm.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03/f_index.03_end
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03/thumb.03_end
+        weight: 1
+      - path: VRHands/hand/palm.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03/f_middle.03_end
+        weight: 1
+      - path: VRHands/hand/palm.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03/f_ring.03_end
+        weight: 1
+      - path: VRHands/hand/palm.04
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03/f_pinky.03_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: VRHands|HandAnimation
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: VR_Hands
+        weight: 1
+      - path: VRHands
+        weight: 1
+      - path: VRHands/Band
+        weight: 1
+      - path: VRHands/hand
+        weight: 1
+      - path: VRHands/hand/palm.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03/f_index.03_end
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03/thumb.03_end
+        weight: 1
+      - path: VRHands/hand/palm.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03/f_middle.03_end
+        weight: 1
+      - path: VRHands/hand/palm.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03/f_ring.03_end
+        weight: 1
+      - path: VRHands/hand/palm.04
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03/f_pinky.03_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Fist
+      takeName: VRHands|HandAnimation
+      firstFrame: 9
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: VR_Hands
+        weight: 1
+      - path: VRHands
+        weight: 1
+      - path: VRHands/Band
+        weight: 1
+      - path: VRHands/hand
+        weight: 1
+      - path: VRHands/hand/palm.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03/f_index.03_end
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03/thumb.03_end
+        weight: 1
+      - path: VRHands/hand/palm.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03/f_middle.03_end
+        weight: 1
+      - path: VRHands/hand/palm.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03/f_ring.03_end
+        weight: 1
+      - path: VRHands/hand/palm.04
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03/f_pinky.03_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Like
+      takeName: VRHands|HandAnimation
+      firstFrame: 19
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: VR_Hands
+        weight: 1
+      - path: VRHands
+        weight: 1
+      - path: VRHands/Band
+        weight: 1
+      - path: VRHands/hand
+        weight: 1
+      - path: VRHands/hand/palm.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03/f_index.03_end
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03/thumb.03_end
+        weight: 1
+      - path: VRHands/hand/palm.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03/f_middle.03_end
+        weight: 1
+      - path: VRHands/hand/palm.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03/f_ring.03_end
+        weight: 1
+      - path: VRHands/hand/palm.04
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03/f_pinky.03_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ButtonClick
+      takeName: VRHands|HandAnimation
+      firstFrame: 29
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: VR_Hands
+        weight: 1
+      - path: VRHands
+        weight: 1
+      - path: VRHands/Band
+        weight: 1
+      - path: VRHands/hand
+        weight: 1
+      - path: VRHands/hand/palm.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03/f_index.03_end
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03/thumb.03_end
+        weight: 1
+      - path: VRHands/hand/palm.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03/f_middle.03_end
+        weight: 1
+      - path: VRHands/hand/palm.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03/f_ring.03_end
+        weight: 1
+      - path: VRHands/hand/palm.04
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03/f_pinky.03_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Finger1
+      takeName: VRHands|HandAnimation
+      firstFrame: 39
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: VR_Hands
+        weight: 1
+      - path: VRHands
+        weight: 1
+      - path: VRHands/Band
+        weight: 1
+      - path: VRHands/hand
+        weight: 1
+      - path: VRHands/hand/palm.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03/f_index.03_end
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03/thumb.03_end
+        weight: 1
+      - path: VRHands/hand/palm.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03/f_middle.03_end
+        weight: 1
+      - path: VRHands/hand/palm.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03/f_ring.03_end
+        weight: 1
+      - path: VRHands/hand/palm.04
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03/f_pinky.03_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Finger2
+      takeName: VRHands|HandAnimation
+      firstFrame: 49
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: VR_Hands
+        weight: 1
+      - path: VRHands
+        weight: 1
+      - path: VRHands/Band
+        weight: 1
+      - path: VRHands/hand
+        weight: 1
+      - path: VRHands/hand/palm.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03/f_index.03_end
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03/thumb.03_end
+        weight: 1
+      - path: VRHands/hand/palm.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03/f_middle.03_end
+        weight: 1
+      - path: VRHands/hand/palm.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03/f_ring.03_end
+        weight: 1
+      - path: VRHands/hand/palm.04
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03/f_pinky.03_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Finger3
+      takeName: VRHands|HandAnimation
+      firstFrame: 59
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: VR_Hands
+        weight: 1
+      - path: VRHands
+        weight: 1
+      - path: VRHands/Band
+        weight: 1
+      - path: VRHands/hand
+        weight: 1
+      - path: VRHands/hand/palm.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03/f_index.03_end
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03/thumb.03_end
+        weight: 1
+      - path: VRHands/hand/palm.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03/f_middle.03_end
+        weight: 1
+      - path: VRHands/hand/palm.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03/f_ring.03_end
+        weight: 1
+      - path: VRHands/hand/palm.04
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03/f_pinky.03_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Finger4
+      takeName: VRHands|HandAnimation
+      firstFrame: 69
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: VR_Hands
+        weight: 1
+      - path: VRHands
+        weight: 1
+      - path: VRHands/Band
+        weight: 1
+      - path: VRHands/hand
+        weight: 1
+      - path: VRHands/hand/palm.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03/f_index.03_end
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03/thumb.03_end
+        weight: 1
+      - path: VRHands/hand/palm.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03/f_middle.03_end
+        weight: 1
+      - path: VRHands/hand/palm.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03/f_ring.03_end
+        weight: 1
+      - path: VRHands/hand/palm.04
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03/f_pinky.03_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Finger5
+      takeName: VRHands|HandAnimation
+      firstFrame: 79
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: VR_Hands
+        weight: 1
+      - path: VRHands
+        weight: 1
+      - path: VRHands/Band
+        weight: 1
+      - path: VRHands/hand
+        weight: 1
+      - path: VRHands/hand/palm.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03/f_index.03_end
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03/thumb.03_end
+        weight: 1
+      - path: VRHands/hand/palm.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03/f_middle.03_end
+        weight: 1
+      - path: VRHands/hand/palm.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03/f_ring.03_end
+        weight: 1
+      - path: VRHands/hand/palm.04
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03/f_pinky.03_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Middle
+      takeName: VRHands|HandAnimation
+      firstFrame: 89
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: VR_Hands
+        weight: 1
+      - path: VRHands
+        weight: 1
+      - path: VRHands/Band
+        weight: 1
+      - path: VRHands/hand
+        weight: 1
+      - path: VRHands/hand/palm.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03/f_index.03_end
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03/thumb.03_end
+        weight: 1
+      - path: VRHands/hand/palm.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03/f_middle.03_end
+        weight: 1
+      - path: VRHands/hand/palm.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03/f_ring.03_end
+        weight: 1
+      - path: VRHands/hand/palm.04
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03/f_pinky.03_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: DoYouRock
+      takeName: VRHands|HandAnimation
+      firstFrame: 99
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: VR_Hands
+        weight: 1
+      - path: VRHands
+        weight: 1
+      - path: VRHands/Band
+        weight: 1
+      - path: VRHands/hand
+        weight: 1
+      - path: VRHands/hand/palm.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03/f_index.03_end
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03/thumb.03_end
+        weight: 1
+      - path: VRHands/hand/palm.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03/f_middle.03_end
+        weight: 1
+      - path: VRHands/hand/palm.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03/f_ring.03_end
+        weight: 1
+      - path: VRHands/hand/palm.04
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03/f_pinky.03_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Shaka
+      takeName: VRHands|HandAnimation
+      firstFrame: 109
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: VR_Hands
+        weight: 1
+      - path: VRHands
+        weight: 1
+      - path: VRHands/Band
+        weight: 1
+      - path: VRHands/hand
+        weight: 1
+      - path: VRHands/hand/palm.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03/f_index.03_end
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03/thumb.03_end
+        weight: 1
+      - path: VRHands/hand/palm.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03/f_middle.03_end
+        weight: 1
+      - path: VRHands/hand/palm.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03/f_ring.03_end
+        weight: 1
+      - path: VRHands/hand/palm.04
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03/f_pinky.03_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Grab1
+      takeName: VRHands|HandAnimation
+      firstFrame: 119
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: VR_Hands
+        weight: 1
+      - path: VRHands
+        weight: 1
+      - path: VRHands/Band
+        weight: 1
+      - path: VRHands/hand
+        weight: 1
+      - path: VRHands/hand/palm.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03/f_index.03_end
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03/thumb.03_end
+        weight: 1
+      - path: VRHands/hand/palm.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03/f_middle.03_end
+        weight: 1
+      - path: VRHands/hand/palm.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03/f_ring.03_end
+        weight: 1
+      - path: VRHands/hand/palm.04
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03/f_pinky.03_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Okay
+      takeName: VRHands|HandAnimation
+      firstFrame: 129
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: VR_Hands
+        weight: 1
+      - path: VRHands
+        weight: 1
+      - path: VRHands/Band
+        weight: 1
+      - path: VRHands/hand
+        weight: 1
+      - path: VRHands/hand/palm.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03/f_index.03_end
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03/thumb.03_end
+        weight: 1
+      - path: VRHands/hand/palm.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03/f_middle.03_end
+        weight: 1
+      - path: VRHands/hand/palm.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03/f_ring.03_end
+        weight: 1
+      - path: VRHands/hand/palm.04
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03/f_pinky.03_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Grab2
+      takeName: VRHands|HandAnimation
+      firstFrame: 139
+      lastFrame: 140
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: VR_Hands
+        weight: 1
+      - path: VRHands
+        weight: 1
+      - path: VRHands/Band
+        weight: 1
+      - path: VRHands/hand
+        weight: 1
+      - path: VRHands/hand/palm.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03/f_index.03_end
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03/thumb.03_end
+        weight: 1
+      - path: VRHands/hand/palm.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03/f_middle.03_end
+        weight: 1
+      - path: VRHands/hand/palm.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03/f_ring.03_end
+        weight: 1
+      - path: VRHands/hand/palm.04
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03/f_pinky.03_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Grab3
+      takeName: VRHands|HandAnimation
+      firstFrame: 149
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: VR_Hands
+        weight: 1
+      - path: VRHands
+        weight: 1
+      - path: VRHands/Band
+        weight: 1
+      - path: VRHands/hand
+        weight: 1
+      - path: VRHands/hand/palm.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03/f_index.03_end
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03/thumb.03_end
+        weight: 1
+      - path: VRHands/hand/palm.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03/f_middle.03_end
+        weight: 1
+      - path: VRHands/hand/palm.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03/f_ring.03_end
+        weight: 1
+      - path: VRHands/hand/palm.04
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03/f_pinky.03_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PistolGrab
+      takeName: VRHands|HandAnimation
+      firstFrame: 159
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: VR_Hands
+        weight: 1
+      - path: VRHands
+        weight: 1
+      - path: VRHands/Band
+        weight: 1
+      - path: VRHands/hand
+        weight: 1
+      - path: VRHands/hand/palm.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03/f_index.03_end
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03/thumb.03_end
+        weight: 1
+      - path: VRHands/hand/palm.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03/f_middle.03_end
+        weight: 1
+      - path: VRHands/hand/palm.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03/f_ring.03_end
+        weight: 1
+      - path: VRHands/hand/palm.04
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03/f_pinky.03_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PistolShoot
+      takeName: VRHands|HandAnimation
+      firstFrame: 160
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: VR_Hands
+        weight: 1
+      - path: VRHands
+        weight: 1
+      - path: VRHands/Band
+        weight: 1
+      - path: VRHands/hand
+        weight: 1
+      - path: VRHands/hand/palm.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03/f_index.03_end
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03/thumb.03_end
+        weight: 1
+      - path: VRHands/hand/palm.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03/f_middle.03_end
+        weight: 1
+      - path: VRHands/hand/palm.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03/f_ring.03_end
+        weight: 1
+      - path: VRHands/hand/palm.04
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03/f_pinky.03_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spok
+      takeName: VRHands|HandAnimation
+      firstFrame: 188
+      lastFrame: 189
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: VR_Hands
+        weight: 1
+      - path: VRHands
+        weight: 1
+      - path: VRHands/Band
+        weight: 1
+      - path: VRHands/hand
+        weight: 1
+      - path: VRHands/hand/palm.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03
+        weight: 1
+      - path: VRHands/hand/palm.01/f_index.01/f_index.02/f_index.03/f_index.03_end
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03
+        weight: 1
+      - path: VRHands/hand/palm.01/thumb.01/thumb.02/thumb.03/thumb.03_end
+        weight: 1
+      - path: VRHands/hand/palm.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03
+        weight: 1
+      - path: VRHands/hand/palm.02/f_middle.01/f_middle.02/f_middle.03/f_middle.03_end
+        weight: 1
+      - path: VRHands/hand/palm.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03
+        weight: 1
+      - path: VRHands/hand/palm.03/f_ring.01/f_ring.02/f_ring.03/f_ring.03_end
+        weight: 1
+      - path: VRHands/hand/palm.04
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03
+        weight: 1
+      - path: VRHands/hand/palm.04/f_pinky.01/f_pinky.02/f_pinky.03/f_pinky.03_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.06
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
