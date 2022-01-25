@@ -38,6 +38,10 @@ public class LoadXMLData : MonoBehaviour // the Class
                 {
                     obj.Add("trial", pItens.InnerText); // put this in the dictionary.
                 }
+                if (pItens.Name == "block")
+                {
+                    obj.Add("block", pItens.InnerText); // put this in the dictionary.
+                }
                 if (pItens.Name == "fixation")
                 {
                     obj.Add("fixation", pItens.InnerText); // put this in the dictionary.

@@ -32,7 +32,7 @@ public class RehaStimInterface : MonoBehaviour
         close();
     }
 
-    public bool enableEMS;
+    public bool enableEMS = true;
 
     private void OnValidate()
     {

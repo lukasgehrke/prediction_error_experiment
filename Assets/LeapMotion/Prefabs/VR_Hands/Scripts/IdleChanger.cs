@@ -14,8 +14,9 @@ public class IdleChanger : MonoBehaviour
 	void Start ()
 	{
 		anim = GetComponent<Animator> ();
-		currentState = anim.GetCurrentAnimatorStateInfo (1);
+		currentState = anim.GetCurrentAnimatorStateInfo (0);
 		previousState = currentState;
+		anim.SetBool("Next", true);
 	}
 	// Update is called once per frame
 	void  Update ()
@@ -24,7 +25,7 @@ public class IdleChanger : MonoBehaviour
 			anim.SetBool ("Next", true);
 		}
 		
-				if (Input.GetKeyDown ("down")) {
+		if (Input.GetKeyDown ("down")) {
 			anim.SetBool ("Back", true);
 		}
 		

@@ -85,7 +85,7 @@ public class ArmStimulation : MonoBehaviour
     private void Start()
     {
         instance = this;
-        Debug.Log("Arm Stimulation initialized");
+//        Debug.Log("Arm Stimulation initialized");
     }
 
     private void Stop()

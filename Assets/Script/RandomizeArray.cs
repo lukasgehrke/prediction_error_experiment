@@ -63,16 +63,21 @@ public class RandomizeArray : MonoBehaviour {
     public static int[] GenerateArraySequences(int totalTrials, double volatility_param, int number_of_sequences)
     {
 
+        // 100, 01, 5
         int[] tmp_sequences = new int[number_of_sequences];
-        for (int i = 0; i < number_of_sequences; i++) tmp_sequences[i] = i+1;
+        for (int i = 0; i < number_of_sequences; i++){
+            tmp_sequences[i] = i+1;
+            //Debug.Log(tmp_sequences[i]); // [1,2,3,4,5]
+        }
 
         int[][] sequences = Enumerable.Repeat(tmp_sequences, number_of_sequences).ToArray();
 
         for (int i = 0; i < sequences.Length; i++)
         {
             ShuffleArray(sequences[i]);
-            //for (int j = 0; j < sequences[i].Length; j++) Debug.Log(sequences[i][j]);
-        
+            //Debug.Log(sequences[i]); // five arrays
+            //Debug.Log(sequences.Length); // of length 5
+            //for (int j = 0; j < sequences[i].Length; j++) Debug.Log(sequences[i][j]); // with 25 values determining sequence length of 1-5 to set sequence of congruent followed by incongruent trial
         }
 
         int[] allTrialsArr = new int[totalTrials];

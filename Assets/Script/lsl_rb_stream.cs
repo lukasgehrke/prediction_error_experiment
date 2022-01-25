@@ -7,7 +7,7 @@ using Assets.LSL4Unity.Scripts.Common;
 public class lsl_rb_stream : MonoBehaviour {
 
 	// 6DOF streaming
-    GameObject rightHand;
+    GameObject head;
 
 	private liblsl.StreamOutlet outlet;
 	private liblsl.StreamInfo streamInfo;
@@ -21,6 +21,8 @@ public class lsl_rb_stream : MonoBehaviour {
 	private float[] currentSample;
 
 	public double dataRate=90;
+
+	public const string uid = "21da06a47ac14a1a84d56d629d0486e5";
 
 	public double GetDataRate()
 	{
@@ -42,7 +44,7 @@ public class lsl_rb_stream : MonoBehaviour {
 	}
 
 	// set LSL parameters
-	public const string StreamName = "Rigid_Leap_Hand";
+	public const string StreamName = "Rigid_Head";
 
 	public string StreamType = "rigidBody";
 	
@@ -57,72 +59,76 @@ public class lsl_rb_stream : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
-	
-		rightHand = GameObject.FindGameObjectWithTag("rightHand_lsl");
-		Debug.Log("Got a Leap Hand, can build stream");
+		
+		head = GameObject.Find("Camera (eye)");
 
-		// initialize the array once
-		currentSample = new float[ChannelCount];
+		if (head != null)
+			{
 
-		//dataRate = LSLUtils.GetSamplingRateFor(sampling);
+			// initialize the array once
+			currentSample = new float[ChannelCount];
 
-		streamInfo = new liblsl.StreamInfo(StreamName, StreamType, ChannelCount, dataRate, liblsl.channel_format_t.cf_float32);
+			//dataRate = LSLUtils.GetSamplingRateFor(sampling);
 
-		//setup LSL stream metadata (code from vizard) 
-		//streamInfo.desc().append_child("synchronization").append_child_value("can_drop_samples", "true");
-		var setup = streamInfo.desc().append_child("setup");
-		setup.append_child_value("name", StreamName);
-		// channels with position and orientation in quaternions
-		objs = setup.append_child("objects");
-		obj = objs.append_child("object");
-		obj.append_child_value("label", StreamName);
-		obj.append_child_value("id", StreamName);
-		obj.append_child_value("type", "Mocap");
+			streamInfo = new liblsl.StreamInfo(StreamName, StreamType, ChannelCount, dataRate, liblsl.channel_format_t.cf_float32, uid);
 
-		channels = streamInfo.desc().append_child("channels");
-		chan = channels.append_child("channel");
-		chan.append_child_value("label", StreamName + "_X");
-		chan.append_child_value("object", StreamName);
-		chan.append_child_value("type", "PositionX");
-		chan.append_child_value("unit", "meters");
+			//setup LSL stream metadata (code from vizard) 
+			//streamInfo.desc().append_child("synchronization").append_child_value("can_drop_samples", "true");
+			var setup = streamInfo.desc().append_child("setup");
+			setup.append_child_value("name", StreamName);
+			// channels with position and orientation in quaternions
+			objs = setup.append_child("objects");
+			obj = objs.append_child("object");
+			obj.append_child_value("label", StreamName);
+			obj.append_child_value("id", StreamName);
+			obj.append_child_value("type", "Mocap");
 
-		chan = channels.append_child("channel");
-		chan.append_child_value("label", StreamName + "_Y");
-		chan.append_child_value("object", StreamName);
-		chan.append_child_value("type", "PositionY");
-		chan.append_child_value("unit", "meters");
+			channels = streamInfo.desc().append_child("channels");
+			chan = channels.append_child("channel");
+			chan.append_child_value("label", StreamName + "_X");
+			chan.append_child_value("object", StreamName);
+			chan.append_child_value("type", "PositionX");
+			chan.append_child_value("unit", "meters");
 
-		chan = channels.append_child("channel");
-		chan.append_child_value("label", StreamName + "_Z");
-		chan.append_child_value("object", StreamName);
-		chan.append_child_value("type", "PositionZ");
-		chan.append_child_value("unit", "meters");
+			chan = channels.append_child("channel");
+			chan.append_child_value("label", StreamName + "_Y");
+			chan.append_child_value("object", StreamName);
+			chan.append_child_value("type", "PositionY");
+			chan.append_child_value("unit", "meters");
 
-		chan = channels.append_child("channel");
-		chan.append_child_value("label", StreamName + "_quat_X");
-		chan.append_child_value("object", StreamName);
-		chan.append_child_value("type", "OrientationX");
-		chan.append_child_value("unit", "quaternion");
+			chan = channels.append_child("channel");
+			chan.append_child_value("label", StreamName + "_Z");
+			chan.append_child_value("object", StreamName);
+			chan.append_child_value("type", "PositionZ");
+			chan.append_child_value("unit", "meters");
 
-		chan = channels.append_child("channel");
-		chan.append_child_value("label", StreamName + "_quat_Y");
-		chan.append_child_value("object", StreamName);
-		chan.append_child_value("type", "OrientationY");
-		chan.append_child_value("unit", "quaternion");
+			chan = channels.append_child("channel");
+			chan.append_child_value("label", StreamName + "_quat_X");
+			chan.append_child_value("object", StreamName);
+			chan.append_child_value("type", "OrientationX");
+			chan.append_child_value("unit", "quaternion");
 
-		chan = channels.append_child("channel");
-		chan.append_child_value("label", StreamName + "_quat_Z");
-		chan.append_child_value("object", StreamName);
-		chan.append_child_value("type", "OrientationZ");
-		chan.append_child_value("unit", "quaternion");
+			chan = channels.append_child("channel");
+			chan.append_child_value("label", StreamName + "_quat_Y");
+			chan.append_child_value("object", StreamName);
+			chan.append_child_value("type", "OrientationY");
+			chan.append_child_value("unit", "quaternion");
 
-		chan = channels.append_child("channel");
-		chan.append_child_value("label", StreamName + "_quat_W");
-		chan.append_child_value("object", StreamName);
-		chan.append_child_value("type", "OrientationW");
-		chan.append_child_value("unit", "quaternion");
+			chan = channels.append_child("channel");
+			chan.append_child_value("label", StreamName + "_quat_Z");
+			chan.append_child_value("object", StreamName);
+			chan.append_child_value("type", "OrientationZ");
+			chan.append_child_value("unit", "quaternion");
 
-		outlet = new liblsl.StreamOutlet(streamInfo);
+			chan = channels.append_child("channel");
+			chan.append_child_value("label", StreamName + "_quat_W");
+			chan.append_child_value("object", StreamName);
+			chan.append_child_value("type", "OrientationW");
+			chan.append_child_value("unit", "quaternion");
+
+			outlet = new liblsl.StreamOutlet(streamInfo);
+			
+		}
 	}
 
 	private void pushSample()
@@ -137,13 +143,13 @@ public class lsl_rb_stream : MonoBehaviour {
 					Debug.Log("Rotation"+firstDevice.transform.rot);*/
 			// reuse the array for each sample to reduce allocation costs
 			// currently only for right-hand device
-			currentSample[0] = rightHand.transform.position.x;
-			currentSample[1] = rightHand.transform.position.y;
-			currentSample[2] = rightHand.transform.position.z;
-			currentSample[3] = rightHand.transform.rotation.x;
-			currentSample[4] = rightHand.transform.rotation.y;
-			currentSample[5] = rightHand.transform.rotation.z;
-			currentSample[6] = rightHand.transform.rotation.w;
+			currentSample[0] = head.transform.position.x;
+			currentSample[1] = head.transform.position.y;
+			currentSample[2] = head.transform.position.z;
+			currentSample[3] = head.transform.rotation.x;
+			currentSample[4] = head.transform.rotation.y;
+			currentSample[5] = head.transform.rotation.z;
+			currentSample[6] = head.transform.rotation.w;
 
 			outlet.push_sample(currentSample, liblsl.local_clock());
 
